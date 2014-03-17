@@ -5,7 +5,7 @@ BUMSink is somewhere between a mail sink and a mail server. It's intended
 purpose is to allow developers to test software that sends email as part of
 its operation while avoiding the risk of accidentally emailing real customers.
 
-t runs as a service and accepts email from any SMTP client and saves them to
+It runs as a service and accepts email from any SMTP client and saves them to
 the file system. It exposes those same emails to any POP3 client.
 
 What it does not do is forward emails to any other SMTP service.
